@@ -23,10 +23,20 @@ interface mongoDBInfo {
 function getMongoDBUrl(auth: boolean, dbInfo?: mongoDBInfo): string {
     let url: string
     if (auth) {
-        return `mongodb://localhost:27017/${config.MongoDatabase}`
+        return `mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auth?retryWrites=true&w=majority`
     }
 
-    url = "mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auth?retryWrites=true&w=majority"
+    url =
+        "mongodb://" +
+        config.MongoUser +
+        ":" +
+        config.MongoPassword +
+        "@" +
+        config.MongoHost +
+        ":" +
+        config.MongoPort.toString() +
+        "/" +
+        config.MongoDatabase
 
     return url
 }
