@@ -21,15 +21,15 @@ function getMongoDBUrl(auth, dbInfo) {
     }
     url =
         "mongodb://" +
-        config_1.default.MongoUser +
-        ":" +
-        config_1.default.MongoPassword +
-        "@" +
-        config_1.default.MongoHost +
-        ":" +
-        config_1.default.MongoPort.toString() +
-        "/" +
-        config_1.default.MongoDatabase;
+            config_1.default.MongoUser +
+            ":" +
+            config_1.default.MongoPassword +
+            "@" +
+            config_1.default.MongoHost +
+            ":" +
+            config_1.default.MongoPort.toString() +
+            "/" +
+            config_1.default.MongoDatabase;
     return url;
 }
 var Database = /** @class */ (function () {

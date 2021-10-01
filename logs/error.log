@@ -11346,3 +11346,38 @@
   label: 'rere-app',
   metadata: {}
 }
+{
+  message: 'storage.sample.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T05:47:45.686Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.sample.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T05:47:59.853Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.sample.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T05:49:06.438Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.sample.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T05:49:53.916Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.sample.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T05:50:11.782Z',
+  label: 'rere-app',
+  metadata: {}
+}

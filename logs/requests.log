@@ -82852,3 +82852,189 @@
     }
   }
 }
+{
+  message: 'POST: \x1B[32m200\x1B[39m 465ms /otp',
+  level: 'info',
+  timestamp: '2021-10-01T05:46:03.943Z',
+  label: 'rere-app',
+  metadata: {
+    meta: {
+      req: {
+        url: '/otp',
+        headers: {
+          apikey: '86c3f9469a235e786021356e078e4fcf',
+          lang: 'uz',
+          'content-type': 'application/json',
+          'user-agent': 'PostmanRuntime/7.28.4',
+          accept: '*/*',
+          'postman-token': '51a67bd1-d0f5-4591-bd44-4d192753d661',
+          host: 'localhost:3000',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          'content-length': '63'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/otp',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 465
+    }
+  }
+}
+{
+  message: 'POST: \x1B[33m400\x1B[39m 197ms /otp',
+  level: 'info',
+  timestamp: '2021-10-01T05:47:07.523Z',
+  label: 'rere-app',
+  metadata: {
+    meta: {
+      req: {
+        url: '/otp',
+        headers: {
+          apikey: '86c3f9469a235e786021356e078e4fcf',
+          lang: 'uz',
+          'content-type': 'application/json',
+          'user-agent': 'PostmanRuntime/7.28.4',
+          accept: '*/*',
+          'postman-token': 'ed942bd9-7eea-466a-95a2-552c169699ac',
+          host: 'localhost:3000',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          'content-length': '64'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/otp',
+        query: {}
+      },
+      res: { statusCode: 400 },
+      responseTime: 197
+    }
+  }
+}
+{
+  message: 'POST: \x1B[32m200\x1B[39m 195ms /otp',
+  level: 'info',
+  timestamp: '2021-10-01T05:47:17.343Z',
+  label: 'rere-app',
+  metadata: {
+    meta: {
+      req: {
+        url: '/otp',
+        headers: {
+          apikey: '86c3f9469a235e786021356e078e4fcf',
+          lang: 'uz',
+          'content-type': 'application/json',
+          'user-agent': 'PostmanRuntime/7.28.4',
+          accept: '*/*',
+          'postman-token': 'cb96f16e-93c6-4175-aaff-ab680884336d',
+          host: 'localhost:3000',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          'content-length': '65'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/otp',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 195
+    }
+  }
+}
+{
+  message: 'POST: \x1B[31m500\x1B[39m 40ms /user/',
+  level: 'info',
+  timestamp: '2021-10-01T05:48:05.815Z',
+  label: 'rere-app',
+  metadata: {
+    meta: {
+      req: {
+        url: '/user/',
+        headers: {
+          lang: 'eng',
+          authorization: 'eyJhbGciOiJIUzI1NiJ9.cGFycGl5ZXY5OEBtYWlsLnJ1.yEif7MNxf8HoOlXPeAoNfVeUsTYrsvRPx6fqltWuXGY',
+          'content-type': 'multipart/form-data; boundary=--------------------------185795515013375040332154',
+          'user-agent': 'PostmanRuntime/7.28.4',
+          accept: '*/*',
+          'postman-token': '9bf33f29-276b-4e78-b0f6-f83a8a07fb32',
+          host: 'localhost:3000',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          'content-length': '633'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/user/',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 40
+    }
+  }
+}
+{
+  message: 'POST: \x1B[31m500\x1B[39m 11ms /user/',
+  level: 'info',
+  timestamp: '2021-10-01T05:48:19.871Z',
+  label: 'rere-app',
+  metadata: {
+    meta: {
+      req: {
+        url: '/user/',
+        headers: {
+          lang: 'eng',
+          authorization: 'eyJhbGciOiJIUzI1NiJ9.cGFycGl5ZXY5OEBtYWlsLnJ1.yEif7MNxf8HoOlXPeAoNfVeUsTYrsvRPx6fqltWuXGY',
+          'content-type': 'multipart/form-data; boundary=--------------------------927738560933644842033432',
+          'user-agent': 'PostmanRuntime/7.28.4',
+          accept: '*/*',
+          'postman-token': '84aea98c-bfff-491a-b0ed-839a10963018',
+          host: 'localhost:3000',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          'content-length': '635'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/user/',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 11
+    }
+  }
+}
+{
+  message: 'POST: \x1B[32m201\x1B[39m 348ms /user/',
+  level: 'info',
+  timestamp: '2021-10-01T05:48:50.556Z',
+  label: 'rere-app',
+  metadata: {
+    meta: {
+      req: {
+        url: '/user/',
+        headers: {
+          lang: 'eng',
+          authorization: 'eyJhbGciOiJIUzI1NiJ9.cGFycGl5ZXY5OEBtYWlsLnJ1.yEif7MNxf8HoOlXPeAoNfVeUsTYrsvRPx6fqltWuXGY',
+          'content-type': 'multipart/form-data; boundary=--------------------------175085225918264367668787',
+          'user-agent': 'PostmanRuntime/7.28.4',
+          accept: '*/*',
+          'postman-token': '520b79f7-472f-47a3-8c5f-57d2e505053d',
+          host: 'localhost:3000',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive',
+          'content-length': '637'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/user/',
+        query: {}
+      },
+      res: { statusCode: 201 },
+      responseTime: 348
+    }
+  }
+}
