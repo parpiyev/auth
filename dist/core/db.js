@@ -17,19 +17,19 @@ db.once("open", function () {
 function getMongoDBUrl(auth, dbInfo) {
     var url;
     if (auth) {
-        return "mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auth?retryWrites=true&w=majority";
+        return "mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority";
     }
     url =
         "mongodb://" +
-            config_1.default.MongoUser +
-            ":" +
-            config_1.default.MongoPassword +
-            "@" +
-            config_1.default.MongoHost +
-            ":" +
-            config_1.default.MongoPort.toString() +
-            "/" +
-            config_1.default.MongoDatabase;
+        config_1.default.MongoUser +
+        ":" +
+        config_1.default.MongoPassword +
+        "@" +
+        config_1.default.MongoHost +
+        ":" +
+        config_1.default.MongoPort.toString() +
+        "/" +
+        config_1.default.MongoDatabase;
     return url;
 }
 var Database = /** @class */ (function () {

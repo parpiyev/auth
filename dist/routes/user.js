@@ -35,10 +35,10 @@ var upload = (0, multer_1.default)({
 var router = (0, express_1.Router)({ mergeParams: true });
 var controller = new user_1.UserController();
 var validator = new user_2.UserValidator();
-router.route("/").get((0, hasPermission_1.hasPermission)('user'), controller.getAll).post(upload.array('photo', 1), controller.create);
+router.route("/").get((0, hasPermission_1.hasPermission)('user'), controller.getAll).post(upload.array('photo', 1), validator.create, controller.create);
 router
     .route("/:id")
     .get((0, hasPermission_1.hasPermission)('user'), controller.get)
-    .patch((0, hasPermission_1.hasPermission)('user'), controller.update)
+    .patch((0, hasPermission_1.hasPermission)('user'), validator.update, controller.update)
     .delete((0, hasPermission_1.hasPermission)('user'), controller.delete);
 exports.default = router;

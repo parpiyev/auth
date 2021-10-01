@@ -26466,3 +26466,31 @@
   label: 'rere-app',
   metadata: {}
 }
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auth?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T05:15:55.491Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T05:15:55.522Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T05:15:55.531Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T05:15:58.180Z',
+  label: 'rere-app',
+  metadata: {}
+}

@@ -6,6 +6,6 @@ const router = Router({ mergeParams: true })
 const controller = new LoginController()
 const validator = new LoginValidator()
 
-router.route("/").post(controller.findOne)
+router.route("/").post(validator.create, controller.findOne)
 
 export default router

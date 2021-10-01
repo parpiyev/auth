@@ -42,11 +42,11 @@ const router = Router({ mergeParams: true })
 const controller = new UserController()
 const validator = new UserValidator()
 
-router.route("/").get(hasPermission('user'), controller.getAll).post(upload.array('photo', 1), controller.create)
+router.route("/").get(hasPermission('user'), controller.getAll).post(upload.array('photo', 1), validator.create, controller.create)
 router
     .route("/:id")
     .get(hasPermission('user'), controller.get)
-    .patch(hasPermission('user'), controller.update)
+    .patch(hasPermission('user'), validator.update, controller.update)
     .delete(hasPermission('user'), controller.delete)
 
 export default router

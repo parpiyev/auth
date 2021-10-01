@@ -111,9 +111,7 @@ var UserController = /** @class */ (function () {
             var _token, _a, last_name, first_name, age, email, password, photos, _i, _b, photo_1, encrypt, salt, hashPassword, last, first, lastName, firstName, _age, _email, photo, user, token;
             return __generator(this, function (_c) {
                 switch (_c.label) {
-                    case 0:
-                        console.log(req.body);
-                        return [4 /*yield*/, (0, jwt_1.verifyToken)(req.headers.authorization)];
+                    case 0: return [4 /*yield*/, (0, jwt_1.verifyToken)(req.headers.authorization)];
                     case 1:
                         _token = _c.sent();
                         _a = req.body, last_name = _a.last_name, first_name = _a.first_name, age = _a.age, email = _a.email, password = _a.password;

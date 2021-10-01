@@ -26,7 +26,6 @@ let config: Config = {
     MongoAuthDisable: true
 }
 
-console.log(config.JwtSecret);
 
 
 function getConf(name: string, def: string = ""): string {

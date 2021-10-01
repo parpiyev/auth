@@ -16,7 +16,6 @@ var config = {
     JwtSecret: getConf('JwtSecret', '12345'),
     MongoAuthDisable: true
 };
-console.log(config.JwtSecret);
 function getConf(name, def) {
     if (def === void 0) { def = ""; }
     if (process.env[name]) {

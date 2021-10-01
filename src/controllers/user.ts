@@ -63,7 +63,6 @@ export class UserController {
     })
 
     create = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
-        console.log(req.body);
 
         let _token = await verifyToken(req.headers.authorization)
 
