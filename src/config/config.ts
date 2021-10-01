@@ -22,9 +22,12 @@ let config: Config = {
     MongoPassword: getConf("MONGO_PASSWORD", ""),
     MongoUser: getConf("MONGO_USER", ""),
     NodeEnv: getConf("NODE_ENV", "development"),
-    JwtSecret: getConf('MyJwtSecret', 'JwtSecret'),
+    JwtSecret: getConf('JwtSecret', '12345'),
     MongoAuthDisable: true
 }
+
+console.log(config.JwtSecret);
+
 
 function getConf(name: string, def: string = ""): string {
     if (process.env[name]) {

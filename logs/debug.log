@@ -26410,3 +26410,59 @@
   label: 'rere-app',
   metadata: {}
 }
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auth?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T04:49:13.965Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T04:49:13.996Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T04:49:14.008Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T04:49:16.718Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auth?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T04:51:28.534Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T04:51:28.573Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T04:51:28.594Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T04:51:30.794Z',
+  label: 'rere-app',
+  metadata: {}
+}
