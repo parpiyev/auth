@@ -12,6 +12,7 @@ export interface IUser extends Document {
     password: string
     time: string
     role: any
+    count_views: number
 }
 
 let roles = {
@@ -52,6 +53,9 @@ let userSchema = new mongoose.Schema({
     role: {
         type: Object,
         default: roles.user
+    },
+    count_views: {
+        type: Number
     }
 })
 

@@ -60,7 +60,7 @@ export class UserStorage implements UserRepo {
         }
     }
 
-    async update(id: string, payload: IUser): Promise<IUser> {
+    async update(id: string, payload: IUser | Object): Promise<IUser> {
         try {
             let dbObj = await User.findByIdAndUpdate(id, payload, {
                 new: true

@@ -35,7 +35,8 @@ export class UserController {
                 age: _age,
                 photo: user.photo.length > 0 ? [photo] : [],
                 email: _email,
-                time: user.time
+                time: user.time,
+                count_viewscount_views: user.count_views
             })
         });
 
@@ -58,7 +59,7 @@ export class UserController {
         if (user.photo.length > 0)
             photo = decrypt(user.photo[0])
 
-        res.status(200).json({ success: true, data: { user: { _id: user._id, last_name: last_name, first_name: first_name, age: age, photo: user.photo.length > 0 ? [photo] : [], email: email, time: user.time } } })
+        res.status(200).json({ success: true, data: { user: { _id: user._id, last_name: last_name, first_name: first_name, age: age, photo: user.photo.length > 0 ? [photo] : [], email: email, time: user.time, count_views: user.count_views } } })
     })
 
     create = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
