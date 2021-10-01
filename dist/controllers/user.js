@@ -55,7 +55,7 @@ var UserController = /** @class */ (function () {
             var _users, users, decrypt;
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, main_1.storage.user.find(req.query)];
+                    case 0: return [4 /*yield*/, main_1.storage.user.find({})];
                     case 1:
                         _users = _a.sent();
                         users = [];

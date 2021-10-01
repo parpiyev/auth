@@ -45,11 +45,12 @@ var catchAsync_1 = __importDefault(require("../utils/catchAsync"));
 var main_1 = require("../storage/main");
 var appError_1 = __importDefault(require("../utils/appError"));
 var nodemailer_1 = __importDefault(require("nodemailer"));
+var node_fetch_1 = __importDefault(require("node-fetch"));
 var OtpController = /** @class */ (function () {
     function OtpController() {
         var _this = this;
         this.create = (0, catchAsync_1.default)(function (req, res, next) { return __awaiter(_this, void 0, void 0, function () {
-            var lang, _a, email, code, token, otp, code_1, main;
+            var lang, _a, email, code, token, otp, response, code_1, main;
             var _this = this;
             return __generator(this, function (_b) {
                 switch (_b.label) {
@@ -59,10 +60,23 @@ var OtpController = /** @class */ (function () {
                         return [4 /*yield*/, main_1.storage.otp.findOne({ email: email })];
                     case 1:
                         otp = _b.sent();
-                        if (!!otp) return [3 /*break*/, 3];
+                        if (!!otp) return [3 /*break*/, 5];
+                        return [4 /*yield*/, (0, node_fetch_1.default)("https://api.antideo.com/email/" + email, {
+                                headers: {
+                                    apiKey: "86c3f9469a235e786021356e078e4fcf",
+                                    "Content-Type": "application/json"
+                                }
+                            })];
+                    case 2:
+                        response = _b.sent();
+                        return [4 /*yield*/, response.json()];
+                    case 3:
+                        response = _b.sent();
+                        if (response.free_provider !== true)
+                            return [2 /*return*/, next(new appError_1.default(401, 'email'))];
                         code_1 = Math.floor(100000 + Math.random() * 900000);
                         return [4 /*yield*/, main_1.storage.otp.create({ email: email, code: code_1 })];
-                    case 2:
+                    case 4:
                         _b.sent();
                         main = function (email) { return __awaiter(_this, void 0, void 0, function () {
                             var transporter;
@@ -89,15 +103,15 @@ var OtpController = /** @class */ (function () {
                             });
                         }); };
                         main(email);
-                        return [3 /*break*/, 6];
-                    case 3:
-                        if (!(code !== otp.code)) return [3 /*break*/, 4];
-                        return [2 /*return*/, next(new appError_1.default(400, 'sms'))];
-                    case 4: return [4 /*yield*/, (0, jwt_1.generateToken)(email)];
+                        return [3 /*break*/, 8];
                     case 5:
+                        if (!(code !== otp.code)) return [3 /*break*/, 6];
+                        return [2 /*return*/, next(new appError_1.default(400, 'sms'))];
+                    case 6: return [4 /*yield*/, (0, jwt_1.generateToken)(email)];
+                    case 7:
                         token = _b.sent();
-                        _b.label = 6;
-                    case 6: return [2 /*return*/, res.status(200).json({ success: true, token: token })];
+                        _b.label = 8;
+                    case 8: return [2 /*return*/, res.status(200).json({ success: true, token: token })];
                 }
             });
         }); });

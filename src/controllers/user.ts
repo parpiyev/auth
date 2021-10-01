@@ -12,7 +12,7 @@ import { IUser } from "../models/User"
 
 export class UserController {
     getAll = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
-        const _users = await storage.user.find(req.query)
+        const _users = await storage.user.find({})
         let users: object[] = []
 
         const decrypt = (data: any) => {

@@ -37,4 +37,4 @@ app.get("/status", (req: Request, res: Response) => {
 
 app.use(errorController.hanle)
 
-export default server
+export default app

@@ -26592,3 +26592,934 @@
   label: 'rere-app',
   metadata: {}
 }
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T06:01:12.724Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:01:12.759Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:01:12.767Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:01:15.092Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.sample.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:01:21.263Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.sample.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:01:21.269Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T06:05:20.073Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:05:20.100Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:05:20.106Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:05:23.036Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.sample.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:05:34.215Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.sample.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:05:34.217Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T06:10:56.420Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:10:56.455Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:10:56.462Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:10:58.940Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:11:06.625Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:11:06.627Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T06:14:57.621Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:14:57.646Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:14:57.651Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:15:01.142Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:15:06.040Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:15:06.044Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T06:18:22.089Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:18:22.113Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:18:22.121Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:18:24.567Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:18:30.292Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:18:30.294Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T06:19:45.780Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:19:45.814Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:19:45.821Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:19:47.983Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:19:48.831Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:19:48.834Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:20:02.760Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:20:02.763Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T06:21:50.668Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:21:50.702Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:21:50.709Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:21:52.866Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:22:03.917Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:22:03.920Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T06:24:18.634Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:24:18.657Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:24:18.661Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:24:20.815Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:24:42.702Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:24:42.704Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T06:33:22.051Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:33:22.078Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:33:22.083Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:33:25.095Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:33:29.669Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:33:29.672Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:35:53.548Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:35:53.550Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority',
+  level: 'info',
+  timestamp: '2021-10-01T06:36:54.032Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:36:54.063Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:36:54.074Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:36:56.146Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:37:21.403Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:37:21.405Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:39:40.474Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:39:40.478Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T06:41:13.029Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:41:13.069Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:41:13.074Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:41:13.110Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:45:36.963Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:45:36.966Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T06:58:50.053Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T06:58:50.132Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T06:58:50.148Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T06:58:50.217Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T06:59:30.288Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T06:59:30.290Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T07:01:47.415Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T07:01:47.578Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T07:01:47.604Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T07:01:47.708Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T07:03:34.945Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T07:03:35.003Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T07:03:35.010Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T07:03:35.057Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T07:06:11.006Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T07:06:11.075Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T07:06:11.081Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T07:06:11.141Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T07:07:29.829Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T07:07:29.874Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T07:07:29.879Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T07:07:29.911Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T07:08:39.918Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T07:08:39.984Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T07:08:39.993Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T07:08:40.032Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T07:08:46.392Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T07:08:46.395Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T07:19:34.271Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T07:19:34.322Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T07:19:34.343Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T07:19:34.391Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T07:19:40.079Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T07:19:40.095Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T07:21:32.696Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T07:21:32.765Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T07:21:32.774Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T07:21:32.846Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T07:21:36.477Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T07:21:36.480Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T08:47:18.201Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T08:47:18.272Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T08:47:18.278Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T08:47:18.327Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T08:47:28.736Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T08:47:28.738Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T08:48:40.730Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T08:48:40.731Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: DATABASE URL: mongodb://localhost:27017/sample_project',
+  level: 'info',
+  timestamp: '2021-10-01T08:51:18.991Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Database connection initialized.',
+  level: 'info',
+  timestamp: '2021-10-01T08:51:19.042Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'INDEX: Server is running on port: 3000',
+  level: 'info',
+  timestamp: '2021-10-01T08:51:19.047Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'DB: mongo db connection is established',
+  level: 'info',
+  timestamp: '2021-10-01T08:51:19.080Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T08:51:31.226Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T08:51:31.228Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.create: finished with error: MongoError: E11000 duplicate key error collection: sample_project.users index: email_1 dup key: { email: "cGFycGl5ZXYxMTFAZ21haWwuY29t" }',
+  level: 'error',
+  timestamp: '2021-10-01T08:55:05.931Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.create: finished with error: MongoError: E11000 duplicate key error collection: sample_project.users index: email_1 dup key: { email: "cGFycGl5ZXYxMTFAZ21haWwuY29t" }',
+  level: 'error',
+  timestamp: '2021-10-01T08:55:57.657Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.create: finished with error: MongoError: E11000 duplicate key error collection: sample_project.users index: email_1 dup key: { email: "cGFycGl5ZXYxMTFAZ21haWwuY29t" }',
+  level: 'error',
+  timestamp: '2021-10-01T08:56:07.743Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.create: finished with error: MongoError: E11000 duplicate key error collection: sample_project.users index: email_1 dup key: { email: "cGFycGl5ZXYxMTFAZ21haWwuY29t" }',
+  level: 'error',
+  timestamp: '2021-10-01T08:56:14.857Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.create: finished with error: MongoError: E11000 duplicate key error collection: sample_project.users index: email_1 dup key: { email: "cGFycGl5ZXYxMTFAZ21haWwuY29t" }',
+  level: 'error',
+  timestamp: '2021-10-01T09:04:56.776Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.get failed to findOne',
+  level: 'warn',
+  timestamp: '2021-10-01T09:06:12.723Z',
+  label: 'rere-app',
+  metadata: {}
+}
+{
+  message: 'storage.user.findOne: finished with error: Error: user',
+  level: 'error',
+  timestamp: '2021-10-01T09:06:12.724Z',
+  label: 'rere-app',
+  metadata: {}
+}

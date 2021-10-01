@@ -9,7 +9,8 @@ export function hasPermission(operation: any) {
 
         if (!token) res.status(403).json({ success: false, message: "Token not found!" })
 
-        let user: any = await storage.user.findOne({ _id: token._id })
+        let user = await storage.user.findOne({ _id: token })
+
         if (!user) res.status(403).json({ success: false, message: "User not found!" })
 
         if (user.role.operations.indexOf(operation) != -1) {

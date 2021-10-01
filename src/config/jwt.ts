@@ -12,6 +12,7 @@ async function generateToken(data: any) {
 }
 
 async function verifyToken(token: any) {
+
     let isToken = (await jwt.verify(token, config.JwtSecret)) as DecodeToken
     return isToken
 }

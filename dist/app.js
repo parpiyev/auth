@@ -31,4 +31,4 @@ app.get("/status", function (req, res) {
     });
 });
 app.use(errorController.hanle);
-exports.default = server;
+exports.default = app;

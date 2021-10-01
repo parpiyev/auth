@@ -27,7 +27,6 @@ let config: Config = {
 }
 
 
-
 function getConf(name: string, def: string = ""): string {
     if (process.env[name]) {
         return process.env[name] || ""

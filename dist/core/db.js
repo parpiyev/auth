@@ -17,7 +17,7 @@ db.once("open", function () {
 function getMongoDBUrl(auth, dbInfo) {
     var url;
     if (auth) {
-        return "mongodb+srv://admin:admin123@cluster0.py9oo.mongodb.net/auths?retryWrites=true&w=majority";
+        return "mongodb://localhost:27017/" + config_1.default.MongoDatabase;
     }
     url =
         "mongodb://" +

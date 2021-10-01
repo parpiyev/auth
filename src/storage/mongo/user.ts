@@ -4,11 +4,11 @@ import { logger } from "../../config/logger"
 import AppError from "../../utils/appError"
 
 export class UserStorage implements UserRepo {
-    private scope = "storage.sample"
+    private scope = "storage.user"
 
     async find(query: Object): Promise<IUser[]> {
         try {
-            let dbObj = await User.find({ ...query })
+            let dbObj = await User.find({})
 
             return dbObj
         } catch (error) {

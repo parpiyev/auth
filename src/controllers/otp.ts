@@ -17,18 +17,17 @@ export class OtpController {
 
         if (!otp) {
 
+            let response: any = await fetch(`https://api.antideo.com/email/${email}`, {
+                headers: {
+                    apiKey: "86c3f9469a235e786021356e078e4fcf",
+                    "Content-Type": "application/json"
+                }
+            });
 
-            // let response: any = await fetch(`https://api.antideo.com/email/${email}`, {
-            //     headers: {
-            //         apiKey: "86c3f9469a235e786021356e078e4fcf",
-            //         "Content-Type": "application/json"
-            //     }
-            // });
+            response = await response.json();
 
-            // response = await response.json();
-
-            // if (response.free_provider !== true)
-            //     return next(new AppError(401, 'email'))
+            if (response.free_provider !== true)
+                return next(new AppError(401, 'email'))
 
             const code: number = Math.floor(100000 + Math.random() * 900000)
 

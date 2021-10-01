@@ -54,7 +54,7 @@ function hasPermission(operation) {
                     token = _a.sent();
                     if (!token)
                         res.status(403).json({ success: false, message: "Token not found!" });
-                    return [4 /*yield*/, main_1.storage.user.findOne({ _id: token._id })];
+                    return [4 /*yield*/, main_1.storage.user.findOne({ _id: token })];
                 case 2:
                     user = _a.sent();
                     if (!user)
