@@ -50,12 +50,11 @@ var OtpController = /** @class */ (function () {
     function OtpController() {
         var _this = this;
         this.create = (0, catchAsync_1.default)(function (req, res, next) { return __awaiter(_this, void 0, void 0, function () {
-            var lang, _a, email, code, token, otp, response, code_1, main;
+            var _a, email, code, token, otp, response, code_1, main;
             var _this = this;
             return __generator(this, function (_b) {
                 switch (_b.label) {
                     case 0:
-                        lang = res.locals.lang;
                         _a = req.body, email = _a.email, code = _a.code;
                         return [4 /*yield*/, main_1.storage.otp.findOne({ email: email })];
                     case 1:

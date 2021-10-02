@@ -28,7 +28,7 @@
                 "ru": "Только первые буквы имени и фамилии должны быть заглавными и английскими буквами.",
                 "uz": "Faqat ism va familiyaning birinchi harflari katta va ingliz harflarida bo'lishi kerak"
             },
-            "model_name": "user"
+            "model_name": "ism"
         },
         {
             "status": 403,

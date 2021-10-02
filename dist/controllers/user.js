@@ -130,10 +130,10 @@ var UserController = /** @class */ (function () {
                     case 3:
                         hashPassword = _c.sent();
                         if (/^[A-Z]+$/.test(last_name[0]) != true || /^[A-Z]+$/.test(first_name[0]) != true)
-                            return [2 /*return*/, next(new appError_1.default(401, 'user'))];
+                            return [2 /*return*/, next(new appError_1.default(401, 'ism'))];
                         last = last_name.slice(1), first = first_name.slice(1);
                         if (/^[a-z]+$/.test(last) != true || /^[a-z]+$/.test(first) != true)
-                            return [2 /*return*/, next(new appError_1.default(401, 'user'))];
+                            return [2 /*return*/, next(new appError_1.default(401, 'ism'))];
                         lastName = encrypt(last_name);
                         firstName = encrypt(first_name);
                         _age = encrypt(age);
@@ -199,10 +199,10 @@ var UserController = /** @class */ (function () {
                         _c.label = 4;
                     case 4:
                         if (/^[A-Z]+$/.test(last_name[0]) != true || /^[A-Z]+$/.test(first_name[0]) != true)
-                            throw new appError_1.default(401, 'Ismni va Familiya bo\'sh xarifi kotta va lotin xariflarida bo\'lishi kerak!');
+                            throw new appError_1.default(401, 'ism');
                         last = last_name.slice(1), first = first_name.slice(1);
                         if (/^[a-z]+$/.test(last) != true || /^[a-z]+$/.test(first) != true)
-                            throw new appError_1.default(401, 'Ismni va Familiya bo\'sh xarifidan boshqa xariflar kichik va lotin xariflarida bo\'lishi kerak!');
+                            throw new appError_1.default(401, 'ism');
                         lastName = encrypt(last_name);
                         firstName = encrypt(first_name);
                         _age = encrypt(age);

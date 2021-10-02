@@ -10,8 +10,7 @@ var ErrorController = /** @class */ (function () {
     function ErrorController() {
         var _this = this;
         this.sendErrorDev = function (err, req, res, next) {
-            var lang = res.locals.lang;
-            var message = (0, getMessage_1.getMessage)({ status: err.statusCode, model_name: err.message }, lang);
+            var message = (0, getMessage_1.getMessage)({ status: err.statusCode, model_name: err.message }, req.headers.lang ? req.headers.lang : 'eng');
             return res.status(err.statusCode).json({
                 success: false,
                 error: err,

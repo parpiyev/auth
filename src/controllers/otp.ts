@@ -9,7 +9,6 @@ import fetch from "node-fetch"
 
 export class OtpController {
     create = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
-        const { lang } = res.locals
         const { email, code } = req.body
         let token
 

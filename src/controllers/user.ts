@@ -63,7 +63,6 @@ export class UserController {
     })
 
     create = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
-
         let _token = await verifyToken(req.headers.authorization)
 
         const { last_name, first_name, age, email, password } = req.body
@@ -81,11 +80,11 @@ export class UserController {
         const hashPassword = await bcrypt.hash(password, salt)
 
         if (/^[A-Z]+$/.test(last_name[0]) != true || /^[A-Z]+$/.test(first_name[0]) != true)
-            return next(new AppError(401, 'user'))
+            return next(new AppError(401, 'ism'))
 
         let last = last_name.slice(1), first = first_name.slice(1)
         if (/^[a-z]+$/.test(last) != true || /^[a-z]+$/.test(first) != true)
-            return next(new AppError(401, 'user'))
+            return next(new AppError(401, 'ism'))
 
         let lastName = encrypt(last_name)
         let firstName = encrypt(first_name)
@@ -147,11 +146,11 @@ export class UserController {
         }
 
         if (/^[A-Z]+$/.test(last_name[0]) != true || /^[A-Z]+$/.test(first_name[0]) != true)
-            throw new AppError(401, 'Ismni va Familiya bo\'sh xarifi kotta va lotin xariflarida bo\'lishi kerak!')
+            throw new AppError(401, 'ism')
 
         let last = last_name.slice(1), first = first_name.slice(1)
         if (/^[a-z]+$/.test(last) != true || /^[a-z]+$/.test(first) != true)
-            throw new AppError(401, 'Ismni va Familiya bo\'sh xarifidan boshqa xariflar kichik va lotin xariflarida bo\'lishi kerak!')
+            throw new AppError(401, 'ism')
 
         let lastName = encrypt(last_name)
         let firstName = encrypt(first_name)

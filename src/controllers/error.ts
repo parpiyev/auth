@@ -5,9 +5,10 @@ import { getMessage } from '../config/getMessage'
 
 export class ErrorController {
     sendErrorDev = (err: AppError, req: Request, res: Response, next: NextFunction) => {
-        const { lang } = res.locals
-        let message = getMessage({ status: err.statusCode, model_name: err.message }, lang)
+
+        let message = getMessage({ status: err.statusCode, model_name: err.message }, req.headers.lang ? req.headers.lang : 'eng' as any)
         return res.status(err.statusCode).json({
+
             success: false,
             error: err,
             message: message.length > 0 ? message : err.message,

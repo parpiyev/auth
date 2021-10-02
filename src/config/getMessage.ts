@@ -14,7 +14,6 @@ export function getMessage(query: Object, language: string): string {
             count++
         }
         if (counter == count) return result.text[language]
-
     }
     return ""
 }

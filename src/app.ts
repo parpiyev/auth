@@ -22,10 +22,9 @@ app.use(express.static(path.join(__dirname, "uploads")));
 
 app.use(routes)
 
-
-
 io.on("connection", function (socket: any) {
-    sio(io, socket)
+
+    // sio(io, socket)
 });
 
 
