@@ -4,6 +4,7 @@ import catchAsync from '../utils/catchAsync'
 import { storage } from '../storage/main'
 import AppError from '../utils/appError'
 import { IOTP } from '../models/OTP'
+import { getMessage } from '../config/getMessage'
 import nodemailer from "nodemailer"
 import fetch from "node-fetch"
 
@@ -56,6 +57,6 @@ export class OtpController {
                 token = await generateToken(email)
             }
         }
-        return res.status(200).json({ success: true, token })
+        return res.status(200).json({ success: true, token, message: getMessage({ model_name: 'tastiqla', method_name: 'getAll' }, req.headers.lang ? req.headers.lang : 'eng' as any) })
     })
 }

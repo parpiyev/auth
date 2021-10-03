@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getMessage = void 0;
-var data = require("./messages.json").data;
+var messages_1 = require("./messages");
 function getMessage(query, language) {
-    for (var _i = 0, data_1 = data; _i < data_1.length; _i++) {
+    for (var _i = 0, data_1 = messages_1.data; _i < data_1.length; _i++) {
         var el = data_1[_i];
         var message = el;
         var object = query;

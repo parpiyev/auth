@@ -44,6 +44,7 @@ var jwt_1 = require("../config/jwt");
 var catchAsync_1 = __importDefault(require("../utils/catchAsync"));
 var main_1 = require("../storage/main");
 var appError_1 = __importDefault(require("../utils/appError"));
+var getMessage_1 = require("../config/getMessage");
 var nodemailer_1 = __importDefault(require("nodemailer"));
 var node_fetch_1 = __importDefault(require("node-fetch"));
 var OtpController = /** @class */ (function () {
@@ -110,7 +111,7 @@ var OtpController = /** @class */ (function () {
                     case 7:
                         token = _b.sent();
                         _b.label = 8;
-                    case 8: return [2 /*return*/, res.status(200).json({ success: true, token: token })];
+                    case 8: return [2 /*return*/, res.status(200).json({ success: true, token: token, message: (0, getMessage_1.getMessage)({ model_name: 'tastiqla', method_name: 'getAll' }, req.headers.lang ? req.headers.lang : 'eng') })];
                 }
             });
         }); });

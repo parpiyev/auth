@@ -1,9 +1,10 @@
-const { data } = require("./messages.json");
+import { data } from "./messages"
+
 
 export function getMessage(query: Object, language: string): string {
 
     for (let el of data) {
-        let message = el as { [filedname: string]: string | number }
+        let message = el as any
         let object = query as { [filedname: string]: string }
         let result = el as { text: { [filedname: string]: string } }
         let count = 0
